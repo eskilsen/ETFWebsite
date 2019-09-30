@@ -1,0 +1,28 @@
+
+
+.home{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.highlighted{
+    border: 1px solid red;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.news{
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+
+.newsList{
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
