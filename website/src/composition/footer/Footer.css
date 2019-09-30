@@ -14,28 +14,40 @@
     flex-direction: row;
     justify-content: space-between;
     clear: both;
-    opacity: 0.7;
+
 
 }
 
 .SoMe{
-    border: 1px solid blue;
+    border-bottom: 1px red solid;
     position: center;
     margin:auto;
     margin-top: 0.4rem;
-    background-color: white;
+
 
 
 }
 .instagram{
     width: 1.5rem;
     height: 1.5rem;
+
+    bottom: 0;
 }
 
 .facebook{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.7rem;
+    height: rem;
+    margin-left: 1rem;
+    bottom: 0;
 }
+
+.twitter{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    bottom: 0;
+}
+
 
 .madeBy{
     border: 5px;

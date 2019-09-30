@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 import igLogo from '../../assets/footer/ig.png';
-import faceLogo from '../../assets/footer/faceLogo.png';
+import faceLogo from '../../assets/footer/facebook.png';
+import twitterLogo from '../../assets/footer/twitter.png';
 
 class Footer extends React.Component {
 
@@ -18,7 +19,9 @@ class Footer extends React.Component {
                         </a>
                         <a href="https://www.facebook.com/eidsvoldturnfotball/">
                             <img className="facebook" src = {faceLogo} />
-
+                        </a>
+                        <a href="https://twitter.com/eidsvoldturn">
+                            <img className="twitter" src = {twitterLogo}/>
                         </a>
                     </div>
 
