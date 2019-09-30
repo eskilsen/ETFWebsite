@@ -1,0 +1,24 @@
+
+# Created by https://www.gitignore.io/api/less,react
+# Edit at https://www.gitignore.io/?templates=less,react
+
+### Less ###
+*.less
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.gitignore.io/api/less,react
