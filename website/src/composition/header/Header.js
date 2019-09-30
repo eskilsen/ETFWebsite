@@ -10,11 +10,9 @@ class Header extends Component {
 
     render() {
 
-        const options = [
-            'one','two','three'
-        ]
+    
 
-        const defaultOption = options[0]
+    
         return (
             <div className="header">
                 
