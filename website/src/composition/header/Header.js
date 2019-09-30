@@ -15,6 +15,9 @@ class Header extends Component {
     
         return (
             <div className="header">
+                <div>
+                    <h1>NICMIC</h1>
+                </div>
                 
                     
             </div>
