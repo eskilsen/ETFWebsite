@@ -3,16 +3,27 @@ import Header from './composition/header/Header';
 import Footer from './composition/footer/Footer';
 import './App.css';
 import Home from './pages/home/Home';
-
+import Klubben from './pages/klubben/Klubben';
+import Lag from './pages/lag/Lag';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 class App extends Component {
   render() {
+
     return (
-      <div className="App">
-        <Header/>
-        <Home/>
-       <Footer/>
-      </div>
+      <Router>
+        <div className="App">
+          <Header/>
+          <Route exact path="/" component={Home} />
+          <Route path="/klubb" component={Klubben} />
+          <Route path="/lag" component={Lag} />
+          
+        </div>
+      </Router>
     );
   }
 }
