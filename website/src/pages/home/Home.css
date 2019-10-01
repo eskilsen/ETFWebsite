@@ -1,0 +1,57 @@
+
+
+.home{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.highlighted{
+    border: 1px solid red;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.news{
+    border: 0.5px solid black;
+
+}
+
+.newsList{
+
+
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+    color: white;
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: none;
+}

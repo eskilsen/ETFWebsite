@@ -22,7 +22,6 @@ class App extends Component {
           <Route path="/klubb" component={Klubben} />
           <Route path="/lag" component={Lag} />
           <Footer/>
-          
         </div>
       </Router>
     );
