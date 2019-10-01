@@ -4,26 +4,23 @@ import './Header.css';
 import React, { Component } from 'react';
 import { Select } from 'nav-frontend-skjema';
 import { Søkeknapp } from 'nav-frontend-ikonknapper';
+import {Link} from 'react-router-dom'
 
 
-class Header extends Component {
+export default class Header extends Component {
 
     render() {
-
-    
-
-    
+        
         return (
             <div className="header">
-                <div>
-                    <h1>NICMIC</h1>
-                </div>
-                
-                    
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/klubb">Klubben</Link></li>
+                    <li><Link to="/lag">Lag</Link></li>
+                </ul>
+
             </div>
         );
     }
 }
-
-export default Header;
 
