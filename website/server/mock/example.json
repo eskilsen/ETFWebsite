@@ -1,29 +1,282 @@
 [{
-    "id": 1,
+    "id": 10,
     "first_name": "Jeanette",
     "last_name": "Penddreth",
     "email": "jpenddreth0@census.gov",
     "gender": "Female",
-    "ip_address": "26.58.193.2"
+    "ip_address": "26.58.193.2",
+    "newsInShort": "Klopp hyller Haaland: – Gratulerer. Fremtiden til norsk fotball er sikret",
+    "news": "sdag skal Erling Braut Haaland trolig ut i sin hittil tøffeste kamp i karrieren når Liverpool står på motsatt banehalvdel på Anfield i Champions League."
   }, {
-    "id": 2,
+    "id": 20,
     "first_name": "Giavani",
     "last_name": "Frediani",
     "email": "gfrediani1@senate.gov",
     "gender": "Male",
-    "ip_address": "229.179.4.212"
+    "ip_address": "229.179.4.212",
+    "newsInShort": "Fremtiden til norsk fotball er sikret",
+    "news": ""
   }, {
-    "id": 3,
+    "id": 30,
     "first_name": "Noell",
     "last_name": "Bea",
     "email": "nbea2@imageshack.us",
     "gender": "Female",
-    "ip_address": "180.66.162.255"
+    "ip_address": "180.66.162.255",
+    "newsInShort": "hakljlajda",
+    "news": ""
   }, {
-    "id": 4,
+    "id": 40,
     "first_name": "Willard",
     "last_name": "Valek",
     "email": "wvalek3@vk.com",
     "gender": "Male",
-    "ip_address": "67.76.188.26"
-  }]
+    "ip_address": "67.76.188.26",
+    "newsInShort": "jbvashjbajsishdoubefoenfw",
+    "news": ""
+  },
+  {
+    "id": 1,
+    "first_name": "Amanda",
+    "last_name": "Ruckledge",
+    "email": "aruckledge0@csmonitor.com",
+    "gender": "Female",
+    "favAnimal": "Sable antelope",
+    "city": "Hongjia",
+    "newsInShort": "NÅP SKJEFBE",
+    "news": ""
+},
+{
+    "id": 2,
+    "first_name": "Parke",
+    "last_name": "Jaffa",
+    "email": "pjaffa1@digg.com",
+    "gender": "Male",
+    "favAnimal": "Capuchin, brown",
+    "city": "Aloleng",
+    "newsInShort": "NIcoalai sier nei",
+    "news": ""
+},
+{
+    "id": 3,
+    "first_name": "Lonnie",
+    "last_name": "Tiron",
+    "email": "ltiron2@ca.gov",
+    "gender": "Female",
+    "favAnimal": "Marshbird, brown and yellow",
+    "city": "Černá Hora",
+    "newsInShort": "",
+    "news": ""
+},
+{
+    "id": 4,
+    "first_name": "Alanson",
+    "last_name": "Gaiford",
+    "email": "agaiford3@google.nl",
+    "gender": "Male",
+    "favAnimal": "Barking gecko",
+    "city": "Hali",
+    "newsInShort": "hjva er det",
+    "news": ""
+},
+{
+    "id": 5,
+    "first_name": "Shepard",
+    "last_name": "Lorand",
+    "email": "slorand4@last.fm",
+    "gender": "Male",
+    "favAnimal": "Cat, long-tailed spotted",
+    "city": "Paris La Défense",
+    "newsInShort": "IKKE TRYKK",
+    "news": "Du trykka du"
+
+},
+{
+    "id": 6,
+    "first_name": "Gabbie",
+    "last_name": "Donald",
+    "email": "gdonald5@exblog.jp",
+    "gender": "Male",
+    "favAnimal": "Gray duiker",
+    "city": "Līgatne",    
+    "newsInShort": "",
+    "news": ""
+},
+{
+    "id": 7,
+    "first_name": "Allene",
+    "last_name": "Witnall",
+    "email": "awitnall6@over-blog.com",
+    "gender": "Female",
+    "favAnimal": "Eastern grey kangaroo",
+    "city": "Bashan",
+    "newsInShort": "",
+    "news": ""
+},
+{
+    "id": 8,
+    "first_name": "Anton",
+    "last_name": "Bittlestone",
+    "email": "abittlestone7@hao123.com",
+    "gender": "Male",
+    "favAnimal": "African darter",
+    "city": "Kālābāgh",
+    "newsInShort": "",
+    "news": ""
+},
+{
+    "id": 9,
+    "first_name": "Red",
+    "last_name": "Langham",
+    "email": "rlangham8@buzzfeed.com",
+    "gender": "Male",
+    "favAnimal": "Red howler monkey",
+    "city": "Thawi Watthana",
+    "newsInShort": "",
+    "news": ""
+},
+{
+    "id": 10,
+    "newsInShort": "Sonnie",
+    "news": "Siely",
+    "email": "ssiely9@sogou.com",
+    "gender": "Male",
+    "favAnimal": "Tern, white-winged",
+    "city": "Chapadinha"
+},
+{
+    "id": 11,
+    "newsInShort": "Amanda",
+    "news": "Willicott",
+    "email": "awillicotta@bbb.org",
+    "gender": "Female",
+    "favAnimal": "Galapagos tortoise",
+    "city": "Shuitian"
+},
+{
+    "id": 12,
+    "newsInShort": "Betteanne",
+    "news": "Pleavin",
+    "email": "bpleavinb@desdev.cn",
+    "gender": "Female",
+    "favAnimal": "Saddle-billed stork",
+    "city": "Reszel"
+},
+{
+    "id": 13,
+    "newsInShort": "Humbert",
+    "news": "Wittier",
+    "email": "hwittierc@twitpic.com",
+    "gender": "Male",
+    "favAnimal": "Platypus",
+    "city": "Quiling"
+},
+{
+    "id": 14,
+    "newsInShort": "Ron",
+    "news": "Trew",
+    "email": "rtrewd@tripod.com",
+    "gender": "Male",
+    "favAnimal": "Galapagos hawk",
+    "city": "Carayaó"
+},
+{
+    "id": 15,
+    "newsInShort": "Bunni",
+    "news": "Phythian",
+    "email": "bphythiane@paypal.com",
+    "gender": "Female",
+    "favAnimal": "Lilac-breasted roller",
+    "city": "Mangunjaya"
+},
+{
+    "id": 16,
+    "newsInShort": "Had",
+    "news": "Iacovolo",
+    "email": "hiacovolof@imageshack.us",
+    "gender": "Male",
+    "favAnimal": "Turtle, eastern box",
+    "city": "Dundee"
+},
+{
+    "id": 17,
+    "newsInShort": "Gabe",
+    "news": "Ingledow",
+    "email": "gingledowg@blogtalkradio.com",
+    "gender": "Male",
+    "favAnimal": "Shark, blue",
+    "city": "Shuiyang"
+},
+{
+    "id": 18,
+    "newsInShort": "Tomlin",
+    "news": "Mc-Kerley",
+    "email": "tmckerleyh@blogs.com",
+    "gender": "Male",
+    "favAnimal": "Dove, mourning collared",
+    "city": "Micheng"
+},
+{
+    "id": 19,
+    "newsInShort": "Sherman",
+    "news": "Axworthy",
+    "email": "saxworthyi@storify.com",
+    "gender": "Male",
+    "favAnimal": "Lizard, giant girdled",
+    "city": "Lobito"
+},
+{
+    "id": 20,
+    "newsInShort": "Bonita",
+    "news": "Feaks",
+    "email": "bfeaksj@wikimedia.org",
+    "gender": "Female",
+    "favAnimal": "Oryx, beisa",
+    "city": "Yelizavetinskoye"
+},
+{
+    "id": 21,
+    "newsInShort": "Bogey",
+    "news": "Lamerton",
+    "email": "blamertonk@yolasite.com",
+    "gender": "Male",
+    "favAnimal": "Bent-toed gecko",
+    "city": "Rouyuan"
+},
+{
+    "id": 22,
+    "newsInShort": "Arne",
+    "news": "Garrud",
+    "email": "agarrudl@phpbb.com",
+    "gender": "Male",
+    "favAnimal": "Dragon, netted rock",
+    "city": "Santos Evos"
+},
+{
+    "id": 23,
+    "newsInShort": "Brandais",
+    "news": "Witherow",
+    "email": "bwitherowm@nps.gov",
+    "gender": "Female",
+    "favAnimal": "Rufous tree pie",
+    "city": "Ryōtsu-minato"
+},
+{
+    "id": 24,
+    "newsInShort": "Bengt",
+    "news": "Larenson",
+    "email": "blarensonn@hud.gov",
+    "gender": "Male",
+    "favAnimal": "White-necked raven",
+    "city": "Houyu"
+},
+{
+    "id": 25,
+    "newsInShort": "Jocelin",
+    "news": "Van Geffen",
+    "email": "jvangeffeno@zdnet.com",
+    "gender": "Female",
+    "favAnimal": "Clark's nutcracker",
+    "city": "Wonorejo"
+}
+]

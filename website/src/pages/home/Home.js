@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import exampleData from '../../mock/example';
+import exampleData from '../../../server/mock/example';
 import './Home.css';
 
 
@@ -9,7 +9,7 @@ class Home extends Component {
 
 
     newsDisplayer = () =>(
-        exampleData.map(name => <li key={name.id}>{name.last_name}</li>)
+        exampleData.map(shortNews => <a href={shortNews.id}><li key={shortNews.id}>{shortNews.newsInShort}</li></a>)
     );
 
     render() {
