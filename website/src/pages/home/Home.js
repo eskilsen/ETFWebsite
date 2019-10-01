@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import exampleData from '../../../server/mock/example';
 import './Home.css';
+import {Link} from 'react-router-dom'
 
 
 
@@ -12,7 +13,7 @@ class Home extends Component {
         exampleData.map(shortNews => 
         <tr> 
             <td key={shortNews.id}>
-            <a href="www.vg.no">{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</a>
+            <Link to='/news'>{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</Link>
             </td>
         </tr>
         )
@@ -20,7 +21,7 @@ class Home extends Component {
 
     render() {
 
-
+<li><Link className="link" to="/">Home</Link></li>
         
         return (
             <div className="home">

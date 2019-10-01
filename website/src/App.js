@@ -9,7 +9,8 @@ import {
   BrowserRouter as Router,
   Route,
   Link
-} from 'react-router-dom'
+} from 'react-router-dom';
+import News from './pages/news/News';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/klubb" component={Klubben} />
           <Route path="/lag" component={Lag} />
+          <Route path ="/news" component={News}/>
           <Footer/>
         </div>
       </Router>
