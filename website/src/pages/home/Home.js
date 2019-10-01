@@ -1,29 +1,32 @@
 import React, { Component } from 'react';
-
+import exampleData from '../../mock/example';
 import './Home.css';
 
-export default class Home extends Component {
-    
+
+
+
+class Home extends Component {
+
+
+    newsDisplayer = () =>(
+        exampleData.map(name => <li key={name.id}>{name.last_name}</li>)
+    );
+
     render() {
+
 
         
         return (
             <div className="home">
                 <div className="highlighted">
-                    <p>hei {console.log(data)}</p>
+                    <p>hei </p>
                 </div>
 
                 <div className="news">
                     <h2>Andre nyheter</h2>
                     <div className="newsList">
                         <ul>
-                            <li>halla</li>
-                            <li>bnalla</li>
-                            <li>skjer</li>
-                            <li>fdp</li>
-                            <li>koman</li>
-                            <li>skjer</li>
-                            <li>fucks</li>
+                            {this.newsDisplayer()}
                         </ul>
                     </div>
                 </div>
@@ -31,3 +34,5 @@ export default class Home extends Component {
         );
     }
 }
+
+export default Home;
