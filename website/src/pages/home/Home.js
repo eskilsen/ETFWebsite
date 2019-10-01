@@ -2,13 +2,8 @@ import React, { Component } from 'react';
 
 import './Home.css';
 
-
-var data = require('../../mock/example.json');
-
-class Home extends Component {
-
-   
-
+export default class Home extends Component {
+    
     render() {
 
         
@@ -36,5 +31,3 @@ class Home extends Component {
         );
     }
 }
-
-export default Home;
