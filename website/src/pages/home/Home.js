@@ -9,7 +9,13 @@ class Home extends Component {
 
 
     newsDisplayer = () =>(
-        exampleData.map(shortNews => <a href={shortNews.id}><li key={shortNews.id}>{shortNews.newsInShort}</li></a>)
+        exampleData.map(shortNews => 
+        <tr> 
+            <td key={shortNews.id}>
+            <a href="www.vg.no">{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</a>
+            </td>
+        </tr>
+        )
     );
 
     render() {
@@ -23,11 +29,13 @@ class Home extends Component {
                 </div>
 
                 <div className="news">
-                    <h2>Andre nyheter</h2>
                     <div className="newsList">
-                        <ul>
+                        <table>
+                            <tr>
+                                <th>Nyheter</th>
+                            </tr>
                             {this.newsDisplayer()}
-                        </ul>
+                        </table>
                     </div>
                 </div>
             </div>
