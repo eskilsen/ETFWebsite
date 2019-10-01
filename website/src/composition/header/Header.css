@@ -1,0 +1,74 @@
+.header {
+    display: grid;
+}
+
+.headerLogo {
+    float: left;
+    margin: 1em;
+}
+
+.titleContainer{
+    display:inline-block;
+    float: left;
+    margin-top: 1em;
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0163A5;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.subTitle {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    display: inline;
+    color: #0163A5;
+    float: left;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 2em;
+    text-decoration: none;
+    float: left;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.link {
+    text-decoration: none;
+} 
+
+.link:visited {
+    color: inherit;
+} 
+
+.link:hover {
+    transform: translateY(-2px);
+    color: black;
+}
+
+.navBar {
+    height: 3em;
+    margin: 0;
+    background-color: #0163A5;
+}
+
+.search{
+    float: right;
+}
