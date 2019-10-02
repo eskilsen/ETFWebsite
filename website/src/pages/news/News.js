@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './News.css'
 
 class News extends Component {
  
@@ -11,11 +12,10 @@ class News extends Component {
                 </div>
 
                 <div className="linkBar">
-                    <ul>
-                        <li>hallo</li>
-                        <li>hallo</li>
-                        <li>hallo</li>
-                    </ul>
+                    <p>Hallo</p>
+                    <p>Hallo</p>
+                    <p>Hallo</p>
+                    <p>Hallo</p>
 
                 </div>
                 <div className="information">

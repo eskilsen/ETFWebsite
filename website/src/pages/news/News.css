@@ -1,15 +1,9 @@
 
 
-.newsHeader{
-    grid-area: header;
-
-}
+.newsHeader{grid-area: header;}
 
 
-.linkBar{
-    grid-area: linkBar;
-
-}
+.linkBar{grid-area: linkBar;}
 .information{grid-area: info;}
 
 .gridContainer{
@@ -17,27 +11,24 @@
     margin-right: 3%;
     margin-left: 3%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10% 80% 10%;
-    height: 100vh;
 
     grid-template-areas: 
-    'header header header header header'
-    'linkbar info info info info '
-    'linkbar info info info info'
-    'linkbar info info info info';
+    'linkBar header header header header'
+    'linkBar info info info info '
+    'linkBar info info info info'
+    'linkBar info info info info';
     
-    grid-gap: 50px;
-    background-color: black;
+    grid-gap: 10px;
 
 }
 
-
+.newsHeader{
+    border: 1px solid blue;
+}
 
 .linkBar{
     border: 1px solid blue;
     color: blue;
-    background-color: red;
 }
 
 .information{
