@@ -11,9 +11,12 @@ class Home extends Component {
 
     newsDisplayer = () =>(
         exampleData.map(shortNews => 
+
         <tr> 
+            
             <td key={shortNews.id}>
-            <Link to='/news'>{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</Link>
+                
+            <Link to = {`/${shortNews.id}`}>{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</Link>
             </td>
         </tr>
         )
