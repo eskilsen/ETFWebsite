@@ -6,17 +6,30 @@ import {Link} from 'react-router-dom'
 
 
 
+
 class Home extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+        }
+      }
 
     newsDisplayer = () =>(
-        exampleData.map(shortNews => 
+        this.props.articles.map((article,id) => 
 
         <tr> 
             
-            <td key={shortNews.id}>
+            <td key={id}>
                 
-            <Link to = {`/${shortNews.id}`}>{shortNews.newsInShort != "" ? shortNews.newsInShort: "ingen nyhet"}</Link>
+            <Link to = {{
+                pathname:`/news`,
+                state: {
+                    article: article
+                }
+            }}
+            >
+            {article.title != "" ? article.title: "ingen nyhet"}</Link>
             </td>
         </tr>
         )
@@ -25,7 +38,7 @@ class Home extends Component {
     render() {
 
 <li><Link className="link" to="/">Home</Link></li>
-        
+        console.log(this.props.articles)
         return (
             <div className="home">
                 <div className="highlighted">
