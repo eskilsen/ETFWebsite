@@ -20,7 +20,7 @@ class News extends Component {
                     <h3>{title}</h3>
                 </div>
 
-                <div className="linkBar">
+                <div className="picture">
                     <img src={imageURL} alt="image"/>
                 </div>
 

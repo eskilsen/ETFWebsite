@@ -3,7 +3,7 @@
 .newsHeader{grid-area: header;}
 
 
-.linkBar{grid-area: linkBar;}
+.picture{grid-area: picture;}
 .information{grid-area: info;}
 
 .gridContainer{
@@ -15,10 +15,10 @@
     display: grid;
 
     grid-template-areas: 
-    'linkBar header header header header'
-    'linkBar info info info info '
-    'linkBar info info info info'
-    'linkBar info info info info';
+    'header header header header header'
+    'picture picture picture picture picture '
+    'info info info info info'
+    'info info info info info';
     
     grid-gap: 10px;
 
@@ -28,9 +28,12 @@
     border: 1px solid blue;
 }
 
-.linkBar{
-    border: 1px solid blue;
-    color: blue;
+.picture{
+
+
+    margin-right: 5rem;
+    margin-left: 5rem;
+
 }
 
 .information{
